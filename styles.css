@@ -49,6 +49,7 @@ body {
 .headerbottom {
   display: flex;
   margin: auto 0;
+  padding: 32px 0px;
 }
 
 .second {
@@ -67,7 +68,6 @@ body {
 .headercontent {
  flex: 1 1 1;
  width: 50%;
- padding: 8px;
 }
 
 .headercontent .title {
@@ -151,3 +151,45 @@ a {
   font-weight: 800;
   color: #1F2937;
 }
+
+.body.content.third {
+  padding: 96px;
+}
+
+.call {
+  padding: 16px 64px;
+  min-width: 60%;
+  min-height: 140px;
+  background-color: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.callcontainer {
+  display: flex;
+  justify-content: space-between;
+  min-width: 80%;
+  color: #E5E7EB;
+}
+
+.callcontainer button {
+  background-color: #3882F6;
+  border-radius: 8px;
+  padding: 8px 32px;
+  border: 2px solid #E5E7EB;
+  Font-weight: bold;
+  color: #E5E7EB;
+}
+
+.callheader {
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.callcontent {
+  font-weight: 400;
+  font-size: 14px;
+}
+
