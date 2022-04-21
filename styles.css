@@ -14,18 +14,27 @@ body {
   flex: 1 0 auto;
   display: flex;
   justify-content: center;
+  font-family: sans-serif;
 }
 
 .headercontainer {
   color: #F9FAF8;
-  min-width: 1000px;
+  min-width: 60%;
   display: flex;
   flex-direction: column;
+  margin: 8px 8px 16px;
 }
 
 .headertop {
   padding: 16px 0;
   display: flex;
+}
+
+.headertop .title {
+  font-size: 24px;
+  font-weight: 1000;
+  margin: 0;
+  padding: 0;
 }
 
 .links {
@@ -34,12 +43,12 @@ body {
   padding: 0;
   margin: 0 0 0 auto;
   list-style: none;
+  align-items: center;
 }
 
 .headerbottom {
   display: flex;
   margin: auto 0;
-  /* justify-content: space-between; */
 }
 
 .second {
@@ -58,10 +67,14 @@ body {
 .headercontent {
  flex: 1 1 1;
  width: 50%;
+ padding: 8px;
 }
 
-.headercontent h3 {
+.headercontent .title {
   margin: 0;
+  padding: 0;
+  font-size: 32px;
+  font-weight: 800;
 }
 
 .logo {
@@ -76,4 +89,65 @@ body {
 a {
   text-decoration: none;
   color: #F9FAF8;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 4px solid #3882F6;
+}
+
+.contentcontainer {
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenttitle {
+  padding: 32px 32px 16px;
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1F2937;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 64px;
+  padding: 16px 32px 32px;
+}
+
+.card {
+  width: 200px;
+  text-align: center;
+}
+
+.body.content.second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middlecontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 128px 32px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1F2937;
+  font-style: italic;
+  max-width: 1000px;
+}
+
+.author {
+  align-self: flex-end;
+  font-size: 16px;
+  font-weight: 800;
+  color: #1F2937;
 }
