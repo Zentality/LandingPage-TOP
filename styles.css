@@ -153,7 +153,7 @@ a {
 }
 
 .body.content.third {
-  padding: 96px;
+  padding: 96px 8px;
 }
 
 .call {
@@ -181,6 +181,7 @@ a {
   border: 2px solid #E5E7EB;
   Font-weight: bold;
   color: #E5E7EB;
+  margin: 0 0 0 16px;
 }
 
 .callheader {
@@ -193,3 +194,11 @@ a {
   font-size: 14px;
 }
 
+.body.footer {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #E5E7EB;
+  font-weight: 700;
+}
